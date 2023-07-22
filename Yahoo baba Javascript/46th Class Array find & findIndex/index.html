@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>46th Class Array find & findIndex</title>
+    <script>
+        // find()
+        // find() hamary array pe jo bhi pehli value true hogi wo
+        // return kadyga agy ki values ko check nh kary ga
+
+        // var ages = [10, 23, 19, 20]
+        // document.write(ages + '<br/><br/>')
+        // var adultAge = 18
+        // var b = ages.find(checkAdult)
+        // function checkAdult(age) {
+        //     return age >= adultAge
+        // }
+        // console.log(b) //first value jo bhi true ho gi wo ladyga find agy nh jaye ga
+
+
+
+
+        // findIndex() jo bhi value true ho gi uska index la dyga
+        //first value jo bhi true ho gi Uska index num ladyga findIndex agy nh jaye ga
+        var ages = [10, 23, 19, 20]
+        document.write(ages + '<br/><br/>')
+        var adultAge = 18
+        var b = ages.findIndex(checkAdult)
+        function checkAdult(age) {
+            return age >= adultAge
+        }
+        console.log(b)
+
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
